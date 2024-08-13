@@ -18,11 +18,11 @@ on:
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
-        default: 'registry.cn-hangzhou.aliyuncs.com/llhl004'
+        default: 'registry.cn-hangzhou.aliyuncs.com'
       TARGET_REPOSITORY:
         description: '空间名称'
         required: true
-        default: 'mirror'
+        default: 'llhl004'
 
 jobs:
   build:
